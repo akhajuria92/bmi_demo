@@ -1,0 +1,10 @@
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/gradle
+/.idea
+/.DS_Store
+/gradlew
+/*.bat
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#194D5B</color>
+
+    <color name="card_background">#FFF4F1</color>
+    <color name="seek_bar_background">#F6DBD4</color>
+    <color name="selected_card_background">#E8A794</color>
+
+    <color name="disableButtonColor">#DACFF8</color>
+
+
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <!--Image picker colors-->
+
+
+    <color name="lightBlack">#ff323232</color>
+    <color name="sb__action_bg_color">#1affffff</color>
+    <color name="sb__background">#323232</color>
+
+
+    <color name="textColorDark">#12212F</color>
+    <color name="viewBg">#DEE7EA</color>
+
+
+    <!--<array name="rainbow">
+        <item>@color/purple</item>
+        <item>@color/indigo</item>
+        <item>@color/blue</item>
+        <item>@color/green_seek</item>
+        <item>@color/green_seek</item>
+        <item>@color/yellow</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+    </array>-->
+    <array name="rainbow">
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+    </array>
+
+</resources>

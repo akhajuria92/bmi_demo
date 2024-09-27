@@ -1,0 +1,8 @@
+version: 2.0
+
+jdk:
+  - openjdk21
+
+before_install:
+  - sdk install java 21.0.4-oracle
+  - sdk use java 21.0.4-oracle
