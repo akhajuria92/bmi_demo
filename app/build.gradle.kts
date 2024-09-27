@@ -35,23 +35,18 @@ android {
             )
         }
     }
-    java {
-        toolchain {
-            languageVersion = JavaLanguageVersion.of(21)        // << --- ADD This
-        }
-    }
 
     compileOptions  {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     java {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "21"
+        jvmTarget = "17"
     }
     publishing {
         singleVariant("release") {
@@ -66,13 +61,12 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             afterEvaluate {
-                groupId = "com.github.GuptaGrajan" // Your GitHub username or organization
+                groupId = "com.TechGlock" // Your GitHub username or organization
                 artifactId = "bmisdk" // Your library's artifact ID
-                version = "1.0.7" // Your library's version
+                version = "1.0.1" // Your library's version
                 from(components["release"])
             }
         }
-//        https://github.com/GuptaGrajan/bmisdk.git
         repositories {
             mavenLocal()
         }

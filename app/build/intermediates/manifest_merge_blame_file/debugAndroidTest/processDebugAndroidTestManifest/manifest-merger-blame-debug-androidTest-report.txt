@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.bmicalculator.test" >
+4
+5    <uses-sdk
+5-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:5:15-41
+7        android:targetSdkVersion="24" />
+7-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:11:5-15:76
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:13:22-53
+13        android:label="Tests for com.app.bmicalculator.test"
+13-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:15:22-74
+14        android:targetPackage="com.app.bmicalculator.test" />
+14-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+16-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-79
+16-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:5-67
+17-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:22-64
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:5-76
+18-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:5-79
+19-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:11:22-76
+20
+21    <queries>
+21-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:24:5-28:15
+22        <package android:name="androidx.test.orchestrator" />
+22-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:25:9-62
+22-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:25:18-59
+23        <package android:name="androidx.test.services" />
+23-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:26:9-58
+23-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:26:18-55
+24        <package android:name="com.google.android.apps.common.testing.services" />
+24-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:27:9-83
+24-->[androidx.test:runner:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/c65c969b9009ebc420652804cb11fd42/transformed/runner-1.6.1/AndroidManifest.xml:27:18-80
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.REORDER_TASKS" />
+27-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:24:5-72
+27-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:24:22-69
+28
+29    <permission
+29-->[androidx.core:core:1.13.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/f40c938b91552b1dbe357c2409c967f2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+30        android:name="com.app.bmicalculator.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.13.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/f40c938b91552b1dbe357c2409c967f2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.13.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/f40c938b91552b1dbe357c2409c967f2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.app.bmicalculator.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.13.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/f40c938b91552b1dbe357c2409c967f2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/f40c938b91552b1dbe357c2409c967f2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:7:5-9:19
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.13.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/f40c938b91552b1dbe357c2409c967f2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false" >
+39        <uses-library android:name="android.test.runner" />
+39-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:8:9-60
+39-->/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13808799369841337483.xml:8:23-57
+40
+41        <activity
+41-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:14:9-19:56
+42            android:name="com.app.bmicalculator.view.activity.MainActivity"
+42-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:15:13-76
+43            android:exported="true"
+43-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:16:13-36
+44            android:screenOrientation="portrait"
+44-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:13-49
+45            android:windowSoftInputMode="stateVisible|adjustResize" />
+45-->[:app] /Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-68
+46        <activity
+46-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:27:9-34:20
+47            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+47-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:28:13-99
+48            android:exported="true"
+48-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:29:13-36
+49            android:theme="@style/WhiteBackgroundTheme" >
+49-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:30:13-56
+50            <intent-filter android:priority="-100" >
+50-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:31:13-33:29
+50-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:31:28-51
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:32:17-77
+51-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:32:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:35:9-42:20
+55            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+55-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:36:13-95
+56            android:exported="true"
+56-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:37:13-36
+57            android:theme="@style/WhiteBackgroundTheme" >
+57-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:38:13-56
+58            <intent-filter android:priority="-100" >
+58-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:31:13-33:29
+58-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:31:28-51
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:32:17-77
+59-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:32:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:43:9-50:20
+63            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+63-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:44:13-103
+64            android:exported="true"
+64-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:45:13-36
+65            android:theme="@style/WhiteBackgroundDialogTheme" >
+65-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:46:13-62
+66            <intent-filter android:priority="-100" >
+66-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:31:13-33:29
+66-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:31:28-51
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:32:17-77
+67-->[androidx.test:core:1.6.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/7cc939bea407c07662a5287cd408afe4/transformed/jetified-core-1.6.1/AndroidManifest.xml:32:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/99ceb89a8093255442de53ccd23ffd55/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/99ceb89a8093255442de53ccd23ffd55/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/99ceb89a8093255442de53ccd23ffd55/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:18.5.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/99ceb89a8093255442de53ccd23ffd55/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:18.4.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/34cede63b9f52e4bba69d5ca71dfbcc1/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:18.4.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/34cede63b9f52e4bba69d5ca71dfbcc1/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:18.4.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/34cede63b9f52e4bba69d5ca71dfbcc1/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+78
+79        <provider
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+81            android:authorities="com.app.bmicalculator.test.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.3.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/4cfd9c4f45a613c62888f02328c8960c/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/akshaykhajuria/.gradle/caches/transforms-4/ab8599fbe4a54d39980bb3f1f5d56afc/transformed/jetified-lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/akshaykhajuria/.gradle/caches/transforms-4/ab8599fbe4a54d39980bb3f1f5d56afc/transformed/jetified-lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/akshaykhajuria/.gradle/caches/transforms-4/ab8599fbe4a54d39980bb3f1f5d56afc/transformed/jetified-lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+92        </provider>
+93
+94        <uses-library
+94-->[androidx.window:window:1.0.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/e7ca089760ddaa2e22d243589297b9f1/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+95            android:name="androidx.window.extensions"
+95-->[androidx.window:window:1.0.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/e7ca089760ddaa2e22d243589297b9f1/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/e7ca089760ddaa2e22d243589297b9f1/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+97        <uses-library
+97-->[androidx.window:window:1.0.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/e7ca089760ddaa2e22d243589297b9f1/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+98            android:name="androidx.window.sidecar"
+98-->[androidx.window:window:1.0.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/e7ca089760ddaa2e22d243589297b9f1/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+99            android:required="false" />
+99-->[androidx.window:window:1.0.0] /Users/akshaykhajuria/.gradle/caches/transforms-4/e7ca089760ddaa2e22d243589297b9f1/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+100
+101        <receiver
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+103            android:directBootAware="false"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+104            android:enabled="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+105            android:exported="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+106            android:permission="android.permission.DUMP" >
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/akshaykhajuria/.gradle/caches/transforms-4/481e56f9418367e1eb3dbb4823bb53bc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+118            </intent-filter>
+119        </receiver>
+120    </application>
+121
+122</manifest>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res"><file name="ic_launcher" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-mdpi/ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="sb__top_out" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/sb__top_out.xml" qualifiers="" type="anim"/><file name="slide_out_left" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/slide_out_left.xml" qualifiers="" type="anim"/><file name="sb__bottom_out" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/sb__bottom_out.xml" qualifiers="" type="anim"/><file name="bounce_anim" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/bounce_anim.xml" qualifiers="" type="anim"/><file name="shake_animation" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/shake_animation.xml" qualifiers="" type="anim"/><file name="slide_in_right" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/slide_in_right.xml" qualifiers="" type="anim"/><file name="sb__bottom_in" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/sb__bottom_in.xml" qualifiers="" type="anim"/><file name="sb__top_in" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/anim/sb__top_in.xml" qualifiers="" type="anim"/><file name="ic_female_white" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_female_white.xml" qualifiers="" type="drawable"/><file name="sb__btn_bg" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/sb__btn_bg.xml" qualifiers="" type="drawable"/><file name="ic_male" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_male.xml" qualifiers="" type="drawable"/><file name="ic_male_selector" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_male_selector.xml" qualifiers="" type="drawable"/><file name="ic_app_logo" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_app_logo.xml" qualifiers="" type="drawable"/><file name="ic_minus" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_minus.xml" qualifiers="" type="drawable"/><file name="ic_female" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_female.xml" qualifiers="" type="drawable"/><file name="sb__divider_bg" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/sb__divider_bg.xml" qualifiers="" type="drawable"/><file name="ic_plus" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_plus.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_launcher_foreground.xml" qualifiers="" type="drawable"/><file name="bg_bottom_line" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/bg_bottom_line.xml" qualifiers="" type="drawable"/><file name="ic_visibility" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_visibility.xml" qualifiers="" type="drawable"/><file name="theme_button_bg" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/theme_button_bg.xml" qualifiers="" type="drawable"/><file name="custom_seekbar_progress" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/custom_seekbar_progress.xml" qualifiers="" type="drawable"/><file name="sb__bg" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/sb__bg.xml" qualifiers="" type="drawable"/><file name="disable_button_bg" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/disable_button_bg.xml" qualifiers="" type="drawable"/><file name="splash_screen" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/splash_screen.xml" qualifiers="" type="drawable"/><file name="ic_female_selector" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_female_selector.xml" qualifiers="" type="drawable"/><file name="bg_selected_card" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/bg_selected_card.xml" qualifiers="" type="drawable"/><file name="bg_default_card" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/bg_default_card.xml" qualifiers="" type="drawable"/><file name="card_bg_selector" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/card_bg_selector.xml" qualifiers="" type="drawable"/><file name="ic_visibility_off" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_visibility_off.xml" qualifiers="" type="drawable"/><file name="ic_male_white" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable/ic_male_white.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="sb__template" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/sb__template.xml" qualifiers="" type="layout"/><file name="fragment_home" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/fragment_home.xml" qualifiers="" type="layout"/><file name="adapter_bmi_result" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/adapter_bmi_result.xml" qualifiers="" type="layout"/><file name="activity_splash" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/activity_splash.xml" qualifiers="" type="layout"/><file name="fragment_result" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/fragment_result.xml" qualifiers="" type="layout"/><file name="adapter_dash_board" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/adapter_dash_board.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="fragment_calculate_bmi" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/layout/fragment_calculate_bmi.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="notification_check_box_color" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/color/notification_check_box_color.xml" qualifiers="" type="color"/><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="Theme.BMICalculator" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorAccent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:forceDarkAllowed" ns1:ignore="NewApi">false</item>
+
+    </style><style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/colors.xml" qualifiers=""><color name="white">#FFFFFFFF</color><color name="colorPrimary">#FFFFFF</color><color name="colorPrimaryDark">#FFFFFF</color><color name="colorAccent">#194D5B</color><color name="card_background">#FFF4F1</color><color name="seek_bar_background">#F6DBD4</color><color name="selected_card_background">#E8A794</color><color name="disableButtonColor">#DACFF8</color><color name="transparent">#00FFFFFF</color><color name="lightBlack">#ff323232</color><color name="sb__action_bg_color">#1affffff</color><color name="sb__background">#323232</color><color name="textColorDark">#12212F</color><color name="viewBg">#DEE7EA</color><array name="rainbow">
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+    </array></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/bools.xml" qualifiers=""><bool name="sb__is_swipeable">true</bool><bool name="sb__is_phone">true</bool></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/dimens.xml" qualifiers=""><dimen name="_280dp">280.00dp</dimen><dimen name="sb__max_width">568dp</dimen><dimen name="sb__offset">0dp</dimen></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/themes.xml" qualifiers=""><style name="Snackbar"/><style name="Snackbar.Text.Action">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/sb__btn_bg</item>
+    </style><style name="Snackbar.Text">
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingLeft">@dimen/_15sdp</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingRight">@dimen/_15sdp</item>
+        <item name="android:textSize">@dimen/_11sdp</item>
+        <item name="android:textColor">@color/white</item>
+    </style></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="homeTitle">
+        <item>@string/app_name</item>
+    </string-array><string-array name="resultPageList">
+        <item>@string/bmi_very_severely_underweight</item>
+        <item>@string/bmi_severely_underweight</item>
+        <item>@string/bmi_underweight</item>
+        <item>@string/bmi_normal</item>
+        <item>@string/bmi_overweight</item>
+        <item>@string/bmi_obese_class_1</item>
+        <item>@string/bmi_obese_class_2</item>
+        <item>@string/bmi_obese_class_3</item>
+    </string-array><string-array name="resultPageListValue">
+        <item>@string/bmi_below_16</item>
+        <item>@string/bmi_16_to_16_9</item>
+        <item>@string/bmi_17_to_18_4</item>
+        <item>@string/bmi_18_5_to_24_9</item>
+        <item>@string/bmi_25_to_29_9</item>
+        <item>@string/bmi_30_to_34_9</item>
+        <item>@string/bmi_35_to_39_9</item>
+        <item>@string/bmi_above_39_9</item>
+    </string-array><integer-array name="resultPageListColor">
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+        <item>@color/selected_card_background</item>
+    </integer-array></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">BMI Calculator</string><string name="calculate">Calculate</string><string name="weight">Weight</string><string name="age">Age</string><string name="height">Height</string><string name="male">Male</string><string name="female">Female</string><string name="plus">plus</string><string name="minus">minus</string><string name="_0cm">220cm</string><string name="_50">50Kg</string><string name="_19">19</string><string name="your_result">Your BMI Result</string><string name="cm">cm</string><string name="press_one_more_time">Press one more time to push app into background</string><string name="not_sufficient_permissions">Not sufficient permissions \n Goto Settings></string><string name="permissions">Permissions</string><string name="internet_connection">Internet Connection seems to be offline. Please check you Internet Connectivity.</string><string name="this_device_is_not_supported">This Device is not supported Google Play services</string><string name="location_setting">Location Settings</string><string name="location_setting_enable_message">Location is not enabled. Do you want to enable it from settings menu?</string><string name="not_connected_to_internet">Not connected to Internet</string><string name="poor_internet_connection">Poor internet connection</string><string name="retry_caps" translatable="false">RETRY</string><string name="gender">Gender</string><string name="bmi_very_severely_underweight">Very severely underweight</string><string name="bmi_severely_underweight">Severely underweight</string><string name="bmi_underweight">Underweight</string><string name="bmi_normal">Normal</string><string name="bmi_overweight">Overweight</string><string name="bmi_obese_class_1">Obese class I</string><string name="bmi_obese_class_2">Obese class II</string><string name="bmi_obese_class_3">Obese class III</string><string name="bmi_below_16">&lt;16</string><string name="bmi_16_to_16_9">16.0 – 16.9</string><string name="bmi_17_to_18_4">17.0 – 18.4</string><string name="bmi_18_5_to_24_9">18.5 – 24.9</string><string name="bmi_25_to_29_9">25.0 – 29.9</string><string name="bmi_30_to_34_9">30.0 – 34.9</string><string name="bmi_35_to_39_9">35.0 – 39.9</string><string name="bmi_above_39_9">>39.9</string><string name="you_have">You have</string><string name="you_are">You are</string><string name="body_weight">body weight!</string></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="HoloCircularProgressBar">
+        <attr format="dimension" name="stroke_width"/>
+        <attr format="float" name="progress"/>
+        <attr format="float" name="marker_progress"/>
+        <attr format="color" name="progress_color"/>
+        <attr format="color" name="progress_background_color"/>
+        <attr format="boolean" name="thumb_visible"/>
+        <attr format="boolean" name="marker_visible"/>
+        <attr name="android:gravity"/>
+    </declare-styleable><attr format="reference" name="circularProgressBarStyle"/><declare-styleable name="BottomPickerImageView">
+        <attr format="reference" name="foreground"/>
+        <attr format="string" name="fit_mode"/>
+    </declare-styleable><declare-styleable name="BottomPickerSquareView">
+        <attr format="boolean" name="matchHeightToWidth"/>
+        <attr format="boolean" name="matchWidthToHeight"/>
+    </declare-styleable><declare-styleable name="ProgressButton">
+        <attr format="string" name="buttonText"/>
+    </declare-styleable><declare-styleable name="ReadMoreTextView">
+        <attr format="string" name="trimExpandedText"/>
+        <attr format="string" name="trimCollapsedText"/>
+        <attr format="integer" name="trimLength"/>
+        <attr format="boolean" name="showTrimExpandedText"/>
+        <attr format="color" name="colorClickableText"/>
+        <attr format="integer" name="trimLines"/>
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0"/>
+            <enum name="trimModeLength" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="AppViews">
+        <attr format="string" name="android:text"/>
+        <attr format="string" name="android:hint"/>
+        <attr format="string" name="android:title"/>
+        <attr format="string" name="android:description"/>
+        <attr format="boolean" name="android:includeFontPadding"/>
+        <attr name="android:src"/>
+        <attr format="integer" name="android:drawableRight"/>
+        <attr format="integer" name="android:maxLines"/>
+        <attr format="integer" name="android:maxLength"/>
+        <attr name="android:ellipsize"/>
+        <attr name="android:inputType"/>
+        <attr name="android:imeOptions"/>
+        <attr name="android:enabled"/>
+        <attr name="android:focusable"/>
+        <attr name="android:clickable"/>
+        <attr name="android:textSize"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:digits"/>
+        <attr format="integer" name="android:gravity"/>
+        <attr format="integer" name="android:padding"/>
+        <attr format="integer" name="android:paddingStart"/>
+        <attr format="integer" name="android:paddingTop"/>
+        <attr format="integer" name="android:paddingBottom"/>
+        <attr format="integer" name="android:paddingEnd"/>
+        <attr format="integer" name="android:paddingLeft"/>
+        <attr format="integer" name="android:paddingRight"/>
+
+        <attr name="android:minLines"/>
+        <attr format="boolean" name="android:singleLine"/>
+    </declare-styleable></file><file path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/values/ic_launcher_background.xml" qualifiers=""/><file name="ic_camera" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable-xhdpi/ic_camera.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_gallary" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable-xhdpi/ic_gallary.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_camera" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable-xxhdpi/ic_camera.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_gallary" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable-xxhdpi/ic_gallary.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_camera" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable-xxxhdpi/ic_camera.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_gallary" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/drawable-xxxhdpi/ic_gallary.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/akshaykhajuria/Documents/Projects/bmi_demo/app/build/generated/res/resValues/debug"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ReadMoreTextView">
+        <attr format="string" name="trimExpandedText"/>
+        <attr format="string" name="trimCollapsedText"/>
+        <attr format="integer" name="trimLength"/>
+        <attr format="boolean" name="showTrimExpandedText"/>
+        <attr format="color" name="colorClickableText"/>
+        <attr format="integer" name="trimLines"/>
+        <attr name="trimMode">
+            <enum name="trimModeLine" value="0"/>
+            <enum name="trimModeLength" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="BottomPickerSquareView">
+        <attr format="boolean" name="matchHeightToWidth"/>
+        <attr format="boolean" name="matchWidthToHeight"/>
+    </declare-styleable><declare-styleable name="BottomPickerImageView">
+        <attr format="reference" name="foreground"/>
+        <attr format="string" name="fit_mode"/>
+    </declare-styleable><declare-styleable name="ProgressButton">
+        <attr format="string" name="buttonText"/>
+    </declare-styleable><declare-styleable name="HoloCircularProgressBar">
+        <attr format="dimension" name="stroke_width"/>
+        <attr format="float" name="progress"/>
+        <attr format="float" name="marker_progress"/>
+        <attr format="color" name="progress_color"/>
+        <attr format="color" name="progress_background_color"/>
+        <attr format="boolean" name="thumb_visible"/>
+        <attr format="boolean" name="marker_visible"/>
+        <attr name="android:gravity"/>
+    </declare-styleable><declare-styleable name="AppViews">
+        <attr format="string" name="android:text"/>
+        <attr format="string" name="android:hint"/>
+        <attr format="string" name="android:title"/>
+        <attr format="string" name="android:description"/>
+        <attr format="boolean" name="android:includeFontPadding"/>
+        <attr name="android:src"/>
+        <attr format="integer" name="android:drawableRight"/>
+        <attr format="integer" name="android:maxLines"/>
+        <attr format="integer" name="android:maxLength"/>
+        <attr name="android:ellipsize"/>
+        <attr name="android:inputType"/>
+        <attr name="android:imeOptions"/>
+        <attr name="android:enabled"/>
+        <attr name="android:focusable"/>
+        <attr name="android:clickable"/>
+        <attr name="android:textSize"/>
+        <attr name="android:fontFamily"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:digits"/>
+        <attr format="integer" name="android:gravity"/>
+        <attr format="integer" name="android:padding"/>
+        <attr format="integer" name="android:paddingStart"/>
+        <attr format="integer" name="android:paddingTop"/>
+        <attr format="integer" name="android:paddingBottom"/>
+        <attr format="integer" name="android:paddingEnd"/>
+        <attr format="integer" name="android:paddingLeft"/>
+        <attr format="integer" name="android:paddingRight"/>
+
+        <attr name="android:minLines"/>
+        <attr format="boolean" name="android:singleLine"/>
+    </declare-styleable></configuration></mergedItems></merger>
