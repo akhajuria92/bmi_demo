@@ -27,8 +27,8 @@ android {
     }
     buildTypes {
         release {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            isMinifyEnabled = false
+            isShrinkResources = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -37,8 +37,8 @@ android {
     }
 
     compileOptions  {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_16
+        targetCompatibility = JavaVersion.VERSION_16
     }
 
     /*java {
@@ -46,7 +46,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_21
     }*/
     kotlinOptions {
-        jvmTarget = "21"
+        jvmTarget = "16"
     }
     publishing {
         singleVariant("release") {
@@ -62,9 +62,9 @@ publishing {
         register<MavenPublication>("release") {
             afterEvaluate {
                 from(components["release"])
-                /*groupId = "com.TechGlock" // Your GitHub username or organization
-                artifactId = "bmisdk" // Your library's artifact ID
-                version = "1.0.1" // Your library's version*/
+                groupId = "com.akhajuria92" // Your GitHub username or organization
+                artifactId = "bmi-calculator" // Your library's artifact ID
+                version = "1.0.8" // Your library's version*/
 
             }
         }
