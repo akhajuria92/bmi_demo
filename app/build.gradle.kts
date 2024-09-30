@@ -61,10 +61,11 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             afterEvaluate {
+                from(components["release"])
                 /*groupId = "com.TechGlock" // Your GitHub username or organization
                 artifactId = "bmisdk" // Your library's artifact ID
                 version = "1.0.1" // Your library's version*/
-                from(components["release"])
+
             }
         }
         repositories {

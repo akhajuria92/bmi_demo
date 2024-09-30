@@ -19,3 +19,5 @@ local.properties
 /gradlew
 /*.bat
 
+/app/build/
+/.kotlin/
