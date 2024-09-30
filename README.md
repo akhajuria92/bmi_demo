@@ -23,11 +23,11 @@ dependencyResolutionManagement {
 ## Step 2
 ```bash
 dependencies {
-    implementation 'com.github.akhajuria92:bmi_demo:Tag'
+    implementation 'com.github.akhajuria92:bmi_demo:1.1.2'
 }
 For Kotlin
 dependencies {
-    implementation ("com.github.akhajuria92:bmi_demo:Tag")
+    implementation ("com.github.akhajuria92:bmi_demo:1.1.2")
 }
 ```
 ## Step 3
