@@ -9,6 +9,7 @@ import com.app.bmicalculator.R
 import com.app.bmicalculator.base.BaseActivity
 import com.app.bmicalculator.databinding.ActivityMainBinding
 import com.app.bmicalculator.utils.extensions.replaceFragmentWithoutStack
+import com.app.bmicalculator.view.fragmets.CalculateBmiFragment
 import com.app.bmicalculator.view.fragmets.HomeFragment
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -43,7 +44,7 @@ class MainActivity : BaseActivity() {
     }
 
     private fun gotoHomeScreen() {
-        replaceFragmentWithoutStack(HomeFragment())
+        replaceFragmentWithoutStack(CalculateBmiFragment())
 
     }
 
