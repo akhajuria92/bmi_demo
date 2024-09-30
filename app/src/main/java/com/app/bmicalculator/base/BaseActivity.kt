@@ -37,7 +37,7 @@ import com.app.bmicalculator.utils.snackBar.ActionClickListener
 import com.app.bmicalculator.utils.snackBar.Snackbar
 import com.app.bmicalculator.utils.snackBar.SnackbarManager
 import com.app.bmicalculator.utils.snackBar.SnackbarType
-import com.app.bmicalculator.view.activity.MainActivity
+import com.app.bmicalculator.view.activity.BmiMainActivity
 import com.app.bmicalculator.viewModels.base.BaseViewModel
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.GoogleApiAvailability
@@ -144,7 +144,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
 
     private fun gotoMainActivity() {
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, BmiMainActivity::class.java))
     }
 
 

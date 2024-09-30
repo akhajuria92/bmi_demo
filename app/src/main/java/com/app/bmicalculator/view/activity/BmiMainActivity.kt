@@ -14,7 +14,7 @@ import com.app.bmicalculator.view.fragmets.HomeFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : BaseActivity() {
+class BmiMainActivity : BaseActivity() {
 
     private var binding: ActivityMainBinding? = null
     override fun showTitleBar() = true

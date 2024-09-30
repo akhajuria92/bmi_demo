@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import com.app.bmicalculator.view.activity.MainActivity
+import com.app.bmicalculator.view.activity.BmiMainActivity
 
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -23,7 +23,7 @@ class BMICalculatorSDK private constructor(private val context: Context) : AppCo
     }
 
     fun launchSdk() {
-        val intent = Intent(context, MainActivity::class.java)
+        val intent = Intent(context, BmiMainActivity::class.java)
         context.startActivity(intent)
         finish()
     }
