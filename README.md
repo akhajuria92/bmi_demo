@@ -8,18 +8,20 @@ To make it easy for you to get started with GitLab, here's a list of recommended
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
 
-## How To use SDK 
-
+## How To use SDK
 ## Step 1
+```bash
 dependencyResolutionManagement {
             repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
             repositories {
                     mavenCentral()
                     maven { url 'https://jitpack.io' } 
             }
-}
+    }
 
+```
 ## Step 2
+```bash
 dependencies {
     implementation 'com.github.akhajuria92:bmi_demo:Tag'
 }
@@ -27,9 +29,9 @@ For Kotlin
 dependencies {
     implementation ("com.github.akhajuria92:bmi_demo:Tag")
 }
-
-
+```
 ## Step 3
+```bash
 Add Hilt in your Project For use BMI 
 for Kotlin add hilt
 For the project-level build.gradle put this inside:
@@ -58,22 +60,19 @@ dependencies {
     kapt 'com.google.dagger:hilt-compiler:2.46.1'
 }
 
-
 For example, create MyApp.kt and add:
 @HiltAndroidApp
 class MyApp: Application()
-
+```
 ## Add viewbinding and data binding in your project
+```bash
 android {
         buildFeatures {
                 viewBinding = true
                 dataBinding = true
         }
 }
-
-
-
-
+```
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
 
