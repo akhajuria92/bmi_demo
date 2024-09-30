@@ -37,16 +37,16 @@ android {
     }
 
     compileOptions  {
-        sourceCompatibility = JavaVersion.VERSION_16
-        targetCompatibility = JavaVersion.VERSION_16
-    }
-
-    /*java {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
-    }*/
+    }
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
     kotlinOptions {
-        jvmTarget = "16"
+        jvmTarget = "21"
     }
     publishing {
         singleVariant("release") {
@@ -64,7 +64,7 @@ publishing {
                 from(components["release"])
                 groupId = "com.akhajuria92" // Your GitHub username or organization
                 artifactId = "bmi-calculator" // Your library's artifact ID
-                version = "1.0.8" // Your library's version*/
+                version = "1.0.9" // Your library's version*/
 
             }
         }
