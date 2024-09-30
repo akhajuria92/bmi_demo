@@ -7,7 +7,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.databinding.DataBindingUtil
 import com.app.bmicalculator.R
 import com.app.bmicalculator.base.BaseActivity
-import com.app.bmicalculator.databinding.ActivityMainBinding
+import com.app.bmicalculator.databinding.ActivityBmiMainBinding
 import com.app.bmicalculator.utils.extensions.replaceFragmentWithoutStack
 import com.app.bmicalculator.view.fragmets.CalculateBmiFragment
 import com.app.bmicalculator.view.fragmets.HomeFragment
@@ -16,7 +16,7 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class BmiMainActivity : BaseActivity() {
 
-    private var binding: ActivityMainBinding? = null
+    private var binding: ActivityBmiMainBinding? = null
     override fun showTitleBar() = true
 
 
@@ -51,7 +51,7 @@ class BmiMainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_bmi_main)
         ViewCompat.setOnApplyWindowInsetsListener(binding!!.root) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
