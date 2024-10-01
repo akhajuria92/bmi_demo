@@ -26,7 +26,7 @@ android {
         dataBinding = true
     }
     buildTypes {
-        release {
+        getByName("release") {
             isMinifyEnabled = false
             isShrinkResources = false
             proguardFiles(
@@ -41,10 +41,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_21
     }
 
-    /*java {
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
-    }*/
     kotlinOptions {
         jvmTarget = "21"
     }
@@ -59,12 +55,22 @@ android {
 }
 publishing {
     publications {
+            create("release",MavenPublication::class.java){
+                groupId = "com.techglock" // Your GitHub username or organization
+                artifactId = "bmi-calculator" // Your library's artifact ID
+                version = "1.1.6"
+                afterEvaluate {
+                    from(components["release"])
+                }
+            }
+        /*
         register<MavenPublication>("release") {
+
             afterEvaluate {
                 from(components["release"])
                 groupId = "com.techglock" // Your GitHub username or organization
                 artifactId = "bmi-calculator" // Your library's artifact ID
-                version = "1.1.4" // Your library's version*/
+                version = "1.1.5" // Your library's version
 
                 pom {
                     name.set("BMI Calculator")
@@ -94,6 +100,7 @@ publishing {
                 }
             }
         }
+        */
         repositories {
             mavenLocal()
             maven {

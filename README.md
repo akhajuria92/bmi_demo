@@ -22,11 +22,11 @@ dependencyResolutionManagement {
 ## Step 2
 ```bash
 dependencies {
-    implementation 'com.github.akhajuria92:bmi_demo:1.1.2'
+    implementation 'com.github.akhajuria92:bmi_demo:1.1.5'
 }
 For Kotlin
 dependencies {
-    implementation ("com.github.akhajuria92:bmi_demo:1.1.2")
+    implementation ("com.github.akhajuria92:bmi_demo:1.1.5")
 }
 ```
 ## Step 3
@@ -48,8 +48,8 @@ plugins {
 
 android {
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_21
+        targetCompatibility JavaVersion.VERSION_21
     }
 }
 
