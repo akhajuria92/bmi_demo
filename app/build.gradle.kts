@@ -66,7 +66,6 @@ publishing {
                 artifactId = "bmi-calculator" // Your library's artifact ID
                 version = "1.1.4" // Your library's version*/
 
-
                 pom {
                     name.set("BMI Calculator")
                     description.set("A library to calculate Body Mass Index (BMI)")
