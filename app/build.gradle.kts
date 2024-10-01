@@ -55,22 +55,14 @@ android {
 }
 publishing {
     publications {
-            create("release",MavenPublication::class.java){
-                groupId = "com.techglock" // Your GitHub username or organization
-                artifactId = "bmi-calculator" // Your library's artifact ID
-                version = "1.1.6"
-                afterEvaluate {
-                    from(components["release"])
-                }
-            }
-        /*
+
         register<MavenPublication>("release") {
 
             afterEvaluate {
                 from(components["release"])
-                groupId = "com.techglock" // Your GitHub username or organization
-                artifactId = "bmi-calculator" // Your library's artifact ID
-                version = "1.1.5" // Your library's version
+                groupId = "github.com.techglock" // Your GitHub username or organization
+                artifactId = "bmi_demo" // Your library's artifact ID
+                version = "1.1.7" // Your library's version
 
                 pom {
                     name.set("BMI Calculator")
@@ -100,7 +92,7 @@ publishing {
                 }
             }
         }
-        */
+
         repositories {
             mavenLocal()
             maven {
