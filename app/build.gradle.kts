@@ -41,10 +41,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_21
     }
 
-    java {
+    /*java {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
-    }
+    }*/
     kotlinOptions {
         jvmTarget = "21"
     }
@@ -62,10 +62,37 @@ publishing {
         register<MavenPublication>("release") {
             afterEvaluate {
                 from(components["release"])
-                groupId = "com.akhajuria92" // Your GitHub username or organization
+                groupId = "com.techglock" // Your GitHub username or organization
                 artifactId = "bmi-calculator" // Your library's artifact ID
-                version = "1.0.9" // Your library's version*/
+                version = "1.1.3" // Your library's version*/
 
+
+                pom {
+                    name.set("BMI Calculator")
+                    description.set("A library to calculate Body Mass Index (BMI)")
+                    url.set("https://github.com/akhajuria92/bmi_demo")
+
+                    licenses {
+                        license {
+                            name.set("The Apache License, Version 2.0")
+                            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                        }
+                    }
+
+                    developers {
+                        developer {
+                            id.set("akhajuria92")
+                            name.set("Akshay Khajuria")
+                            email.set("akshaykhajuria92@gmail.com")
+                        }
+                    }
+
+                    scm {
+                        connection.set("scm:git:git://github.com/akhajuria92/bmi_demo.git")
+                        developerConnection.set("scm:git:ssh://github.com/akhajuria92/bmi_demo.git")
+                        url.set("https://github.com/akhajuria92/bmi_demo")
+                    }
+                }
             }
         }
         repositories {
@@ -95,7 +122,8 @@ dependencies {
     implementation(libs.sdp.android)
     // Glide
     implementation(libs.glide)
-    annotationProcessor(libs.compiler)
+    //noinspection KaptUsageInsteadOfKsp
+    kapt(libs.compiler)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.extensions)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)

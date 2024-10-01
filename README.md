@@ -18,7 +18,6 @@ dependencyResolutionManagement {
                     maven { url 'https://jitpack.io' } 
             }
     }
-
 ```
 ## Step 2
 ```bash

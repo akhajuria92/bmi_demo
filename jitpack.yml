@@ -1,6 +1,21 @@
+# jitpack.yml
+
+# Specify JDK version for the build
 jdk:
   - openjdk21
 
+# Install Oracle JDK using SDKMAN
 before_install:
   - sdk install java 21.0.4-oracle
   - sdk use java 21.0.4-oracle
+
+# Build instructions
+build:
+  # Build the project with Gradle
+  commands:
+    - ./gradlew clean build
+
+publish:
+  # Optional: You can specify how to publish (if needed)
+  after_success:
+    - ./gradlew publish
