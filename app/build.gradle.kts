@@ -64,7 +64,7 @@ publishing {
                 from(components["release"])
                 groupId = "com.techglock" // Your GitHub username or organization
                 artifactId = "bmi-calculator" // Your library's artifact ID
-                version = "1.1.3" // Your library's version*/
+                version = "1.1.4" // Your library's version*/
 
 
                 pom {
@@ -97,6 +97,9 @@ publishing {
         }
         repositories {
             mavenLocal()
+            maven {
+                url = uri("https://jitpack.io")
+            }
         }
 
     }
