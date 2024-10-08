@@ -25,17 +25,11 @@ class BmiMainActivity : BaseActivity() {
             val fragment = supportFragmentManager.findFragmentById(R.id.frameContainerFL)
 
             when {
-                fragment is HomeFragment -> {
-                    backAction()
-                }
-
-
                 supportFragmentManager.backStackEntryCount > 0 -> {
                     supportFragmentManager.popBackStack()
                 }
 
                 else -> {
-
                     gotoHomeScreen()
                 }
             }
