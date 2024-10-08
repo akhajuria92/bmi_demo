@@ -29,9 +29,9 @@ class BmiMainActivity : BaseActivity() {
                     supportFragmentManager.popBackStack()
                 }
 
-                else -> {
+                /*else -> {
                     gotoHomeScreen()
-                }
+                }*/
             }
         }
 
