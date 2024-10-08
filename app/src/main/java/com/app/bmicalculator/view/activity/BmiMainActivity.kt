@@ -23,15 +23,11 @@ class BmiMainActivity : BaseActivity() {
     private val onBackPressedCallBack = object : OnBackPressedCallback(true) {
         override fun handleOnBackPressed() {
             val fragment = supportFragmentManager.findFragmentById(R.id.frameContainerFL)
-
             when {
                 supportFragmentManager.backStackEntryCount > 0 -> {
                     supportFragmentManager.popBackStack()
                 }
 
-                else -> {
-                    finish()
-                }
             }
         }
 
