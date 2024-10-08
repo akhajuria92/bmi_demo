@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingUtil
 import com.app.bmicalculator.R
 import com.app.bmicalculator.base.BaseActivity
 import com.app.bmicalculator.databinding.ActivityBmiMainBinding
+import com.app.bmicalculator.utils.extensions.replaceFragment
 import com.app.bmicalculator.utils.extensions.replaceFragmentWithoutStack
 import com.app.bmicalculator.view.fragmets.CalculateBmiFragment
 import com.app.bmicalculator.view.fragmets.HomeFragment
@@ -38,7 +39,7 @@ class BmiMainActivity : BaseActivity() {
     }
 
     private fun gotoHomeScreen() {
-        replaceFragmentWithoutStack(CalculateBmiFragment())
+        replaceFragment(CalculateBmiFragment())
 
     }
 
